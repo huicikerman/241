@@ -1,0 +1,123 @@
+<blue>2.4.1 - Garapen Metodologiaren Bilakaera</blue>
+
+Informatika arloan, proiektua hasi aurretik galdera hauek planteatzen dira:
+
+* Zein aldagai hartu kontuan?
+* Nola antolatu eta aurreikusi baliabideak?
+* Nola saihestu ezustekoak eta atzerapenak?
+* Zein metodologia da egokiena nire proiekturako?
+
+Metodologia guztietan garrantzitsua da:
+
+* <green>Plan bat</green> izatea helburura iristeko.
+* <green>Helburuen jarraipena</green> eta aurrerapenaren kontrola.
+* <green>Ardura argiak</green> taldean.
+* <green>Komunikazio eraginkorra</green> talde guztien artean.
+* <green>Motibazioa eta enpatia</green> proiektuko kide guztien artean.
+* <green>Feedback etengabea</green> proiektuaren egoerari buruz.
+* <green>Malgutasuna</green> erabiltzailearen aldaketak onartzeko.
+
+<blue>Metodologia Tradizionalak (Ur-jauzia)</blue>
+
+Faseak:
+**Analisia → Diseinua → Garapena → Probak → Inplementazioa → Mantentzea**
+
+Ezaugarriak:
+
+* Diziplina eta aurreikusgarritasuna bilatzen du.
+* Fase linealak eta dokumentazio handia behar dira.
+* Talde espezializatuak.
+* Egokia proiektu egonkorrentzat eta baldintza finkoak dituztenentzat.
+* Ez da egokia eskakizun aldakor edo ziurgabetasun handiko proiektuetan.
+
+Abantailak:
+
+* Aurrerapena neurtzea erraza da.
+* Prozesua eta emaitzak ondo dokumentatuta daude.
+
+Desabantailak:
+
+* Emaitzak berandu ikusten dira.
+* Aldaketak egitea zaila da prozesua aurrera doan heinean.
+
+<blue>Garapen Arina (Agile)</blue>
+
+Filosofia:
+
+* <green>Abiadura</green>, <green>malgutasuna</green> eta <green>erresilientzia</green> aldaketen aurrean.
+* <green>Garapena errepikakorra eta inkrementala</green>.
+* <green>DevOps</green> printzipioetan oinarritua.
+
+Abantailak:
+
+* Lana faseetan banatuz, aurrerapen azkarra eta argia.
+* Aldaketetara erraz moldatzen da.
+* Bezeroaren feedback azkarra.
+* Proiektuaren gardentasun handiagoa.
+* Denbora eta kostuen murrizketa ("time to market" txikiagoa).
+
+Desabantailak:
+
+* Zaila da hasieran denbora eta aurrekontua zehaztea.
+* Talde trebatu eta motibatua behar da.
+* Bezeroaren parte-hartze handia eskatzen du.
+* Dokumentazio eskasa izan daiteke.
+* Arriskua dago proiektua kontrolik gabe luzatzeko.
+
+<blue>2.4.2 - Scrum</blue>
+
+Scrum metodologia arina da, taldeei lankidetza eta etengabeko hobekuntza sustatzen diena.
+Helburua: <green>balioa ahalik eta azkarren ematea</green>.
+
+Ezaugarriak:
+
+* Lana **Sprint** izeneko zikloetan banatzen da (2-4 aste).
+* Bezeroak **lehentasunak** ezartzen ditu.
+* Taldeak bere **autokudeaketa** du.
+* Sprint bakoitzaren amaieran, bezeroak emaitzak berrikusten ditu.
+
+<green>Scrum Gertaerak:</green>
+
+* **Sprint Planning**: Hurrengo Sprint-eko lanak planifikatu.
+* **Daily Scrum**: Eguneroko 15 minutu, aurrerapen eta oztopoak aztertzeko.
+* **Sprint Review eta Retrospective**: Emaitzak berrikusi eta hobekuntzak proposatu.
+
+<green>Plangintza Poker</green>: Taldeak konplexutasuna eta arriskuak estimatzen ditu modu kolektiboan.
+
+Onurak:
+
+* Konfiantza, ikusgarritasuna eta komunikazioa hobetzen dira.
+* Arriskuak eta kostuak murrizten dira.
+* Negozioaren balioa eta malgutasuna handitzen dira.
+
+<blue>2.4.3 - Kanban</blue>
+
+Kanban = "Seinale bisuala".
+Lanaren fluxua **ikusarazteko eta kudeatzeko** metodologia da.
+
+Helburua:
+
+* Prozesuan "botila-lepoak" identifikatu eta optimizatzea.
+* Lana modu jarraituan eta eraginkorrean kudeatzea.
+
+Oinarriak:
+
+* Egungo lanarekin hasi eta pixkanaka hobetu.
+* Rolak eta ardurak errespetatu.
+* Hobekuntza etengabea eta parte-hartze orokorra sustatu.
+
+<green>Kanban taula:</green>
+Zutabeak: "Zain" → "Abian" → "Eginda"
+WIP (Work in Progress) muga: aldi berean zeregin kopuru mugatua.
+
+<blue>Scrum vs Kanban</blue>
+
+| Ezaugarriak | Scrum                            | Kanban                         |
+| ----------- | -------------------------------- | ------------------------------ |
+| Rolak       | Taldea, liderra, produktu-jabea  | Aukerazkoak                    |
+| Plangintza  | Sprint bakoitzaren hasieran      | Ez da beharrezkoa              |
+| Entregak    | Esprint bakoitzaren amaieran     | Etengabeko entrega             |
+| KPIak       | Taldearen abiadura               | Entrega-denbora, ziklo-denbora |
+| Gertaerak   | Nahitaezkoak (Daily, Review...)  | Aukerazkoak                    |
+| Taulak      | Sprint bakoitzean berritzen dira | Etengabeko fluxua              |
+| WIP muga    | Ez dago argi definituta          | Fase bakoitzean mugatua        |

@@ -1,0 +1,121 @@
+<blue>2.4.1 - Garapen Metodologiaren Bilakaera</blue>
+
+Informatika arloan, proiektua hasi aurretik galdera hauek planteatzen dira:
+
+    - Zein aldagai hartu kontuan?
+    - Nola antolatu eta aurreikusi baliabideak?
+    - Nola saihestu ezustekoak eta atzerapenak?
+    - Zein metodologia da egokiena nire proiekturako?
+
+Metodologia guztietan garrantzitsua da:
+
+    - <green>Plan bat</green> izatea helburura iristeko.
+    - <green>Helburuen jarraipena</green> eta aurrerapenaren kontrola.
+    - <green>Ardura argiak</green> taldean.
+    - <green>Komunikazio eraginkorra</green> talde guztien artean.
+    - <green>Motibazioa eta enpatia</green> proiektuko kide guztien artean.
+    - <green>Feedback etengabea</green> proiektuaren egoerari buruz.
+    - <green>Malgutasuna</green> erabiltzailearen aldaketak onartzeko.
+
+<blue>Metodologia Tradizionalak (Ur-jauzia)</blue>
+
+Faseak:
+Analisia -> Diseinua -> Garapena -> Probak -> Inplementazioa -> Mantentzea
+
+Ezaugarriak:
+
+    - Diziplina eta aurreikusgarritasuna bilatzen du.
+    - Fase linealak eta dokumentazio handia behar dira.
+    - Talde espezializatuak behar dira.
+    - Egokia da proiektu egonkorrentzat eta baldintza finkoak dituztenentzat.
+    - Ez da egokia eskakizun aldakor edo ziurgabetasun handiko proiektuetan.
+
+Abantailak:
+
+    - Aurrerapena neurtzea erraza da.
+    - Prozesua eta emaitzak ondo dokumentatuta daude.
+
+Desabantailak:
+
+    - Emaitzak berandu ikusten dira.
+    - Aldaketak egitea zaila da prozesua aurrera doan heinean.
+
+<blue>Garapen Arina (Agile)</blue>
+
+Filosofia:
+
+    - <green>Abiadura</green>, <green>malgutasuna</green> eta <green>erresilientzia</green> aldaketen aurrean.
+    - <green>Garapena errepikakorra eta inkrementala</green>.
+    - <green>DevOps</green> printzipioetan oinarritua.
+
+Abantailak:
+
+    - Lana faseetan banatuz, aurrerapen azkarra eta argia lortzen da.
+    - Aldaketetara erraz moldatzen da.
+    - Bezeroaren feedback azkarra jasotzen da.
+    - Proiektuaren gardentasun handiagoa dago.
+    - Denbora eta kostuen murrizketa ("time to market" txikiagoa).
+
+Desabantailak:
+
+    - Zaila da hasieran denbora eta aurrekontua zehaztea.
+    - Talde trebatu eta motibatua behar da.
+    - Bezeroaren parte-hartze handia eskatzen du.
+    - Dokumentazio eskasa izan daiteke.
+    - Arriskua dago proiektua kontrolik gabe luzatzeko.
+
+<blue>2.4.2 - Scrum</blue>
+
+Scrum metodologia arina da, eta taldeei lankidetza eta etengabeko hobekuntza sustatzen die. Helburua: <green>balioa ahalik eta azkarren ematea</green>.
+
+Ezaugarriak:
+
+    - Lana Sprint izeneko zikloetan banatzen da (2-4 aste).
+    - Bezeroak lehentasunak ezartzen ditu.
+    - Taldeak bere autokudeaketa du.
+    - Sprint bakoitzaren amaieran, bezeroak emaitzak berrikusten ditu.
+
+<green>Scrum Gertaerak:</green>
+
+    - Sprint Planning: Hurrengo Sprint-eko lanak planifikatu.
+    - Daily Scrum: Eguneroko 15 minutuko bilera, aurrerapena eta oztopoak aztertzeko.
+    - Sprint Review eta Retrospective: Emaitzak berrikusi eta hobekuntzak proposatu.
+
+<green>Plangintza Poker:</green> Taldeak konplexutasuna eta arriskuak estimatzen ditu modu kolektiboan.
+
+Onurak:
+
+    - Konfiantza, ikusgarritasuna eta komunikazioa hobetzen dira.
+    - Arriskuak eta kostuak murrizten dira.
+    - Negozioaren balioa eta malgutasuna handitzen dira.
+
+<blue>2.4.3 - Kanban</blue>
+
+Kanban hitzak "seinale bisuala" esan nahi du.
+Lanaren fluxua ikusarazteko eta kudeatzeko metodologia da.
+
+Helburua:
+
+    - Prozesuan "botila-lepoak" identifikatu eta optimizatzea.
+    - Lana modu jarraituan eta eraginkorrean kudeatzea.
+
+Oinarriak:
+
+    - Egungo lanarekin hasi eta pixkanaka hobetu.
+    - Rolak eta ardurak errespetatu.
+    - Hobekuntza etengabea eta parte-hartze orokorra sustatu.
+
+<green>Kanban taula:</green>
+
+    - Zutabeak: "Zain" -> "Abian" -> "Eginda".
+    - WIP (Work in Progress) muga: aldi berean zeregin kopuru mugatua.
+
+<blue>Scrum eta Kanban arteko alderaketa</blue>
+
+    - <green>Rolak</green>: Scrum-en taldeak, liderra eta produktu-jabea ditu; Kanbanen, rolak aukerazkoak dira.
+    - <green>Plangintza</green>: Scrum-en Sprint bakoitzaren hasieran egiten da; Kanbanen ez da beharrezkoa.
+    - <green>Entregak</green>: Scrum-en Sprint bakoitzaren amaieran; Kanbanen entrega etengabea da.
+    - <green>KPIak</green>: Scrum-en taldearen abiadura; Kanbanen entrega-denbora eta ziklo-denbora.
+    - <green>Gertaerak</green>: Scrum-en nahitaezkoak dira (Daily, Review...); Kanbanen aukerazkoak.
+    - <green>Taulak</green>: Scrum-en Sprint bakoitzean berritzen dira; Kanbanen fluxua etengabea da.
+    - <green>WIP muga</green>: Scrum-en ez dago argi definituta; Kanbanen fase bakoitzean mugatua dago.

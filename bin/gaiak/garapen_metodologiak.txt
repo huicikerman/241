@@ -1,0 +1,36 @@
+<blue>2.1. Softwarearen Zikloa</blue>
+
+Tradizionalki aplikazio informatikoen garapena banaka egiten zen. Dena kodetu
+eta gero frogatu. Modu honek ez zeukan aurretiazko plangintza edo
+dokumentaziorik. Hori dela eta, beharrezkoa da softwarearen garapenaren ikuspegi
+logiko eta planifikatua hartzea.
+
+Softwarea garatzeko eta mantentzeko faseak eta prozesuak definitzen ditu, sortu
+zenetik erabiltzera edo erretiratu arte.
+
+Abantailak:
+
+    - Kodetzea errazten du hasieratik.
+    - Garapen progresiboa eta kontrolatua bermatzen du.
+    - Akatsak goiz detektatzeko aukera ematen du.
+    - Epeak eta kostuak kontrolatzen ditu.
+    - Dokumentazioa formala eta argia da.
+    - Langileen zereginak argi markatzen ditu.
+
+Faseak:
+
+    - <green>Analisia</green>: Bezeroaren eskakizunak definitzen dira.
+    - <green>Diseinua</green>: Arkitektura eta osagaiak zehazten dira.
+    - <green>Kodetzea</green>: Diseinua kode bihurtzen da.
+    - <green>Frogak</green>: Softwarea probatu, akatsak detektatu eta zuzendu.
+    - <green>Dokumentazioa</green>: Nola erabili eta nola mantentzea zehazten da.
+    - <green>Ezarpena</green>: Softwarea produkzioan sartzen da.
+    - <green>Mantentzea</green>: Akatsak zuzendu eta hobekuntza berriak gehitu.
+
+Eginkizunak:
+
+    - <green>Analista</green>: Eskakizunak aztertzen ditu.
+    - <green>Diseinatzailea</green>: Soluzioak garatzen ditu.
+    - <green>Analista programatzailea</green>: Proiektuaren ikuspegi orokorra.
+    - <green>Programatzailea</green>: Kodea sortzen du.
+    - <green>Arkitektoa</green>: Garapena koordinatzen du.
